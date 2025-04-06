@@ -22,7 +22,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "yarn install"
+	"postCreateCommand": "yarn install && yarn global add aws-cdk"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
